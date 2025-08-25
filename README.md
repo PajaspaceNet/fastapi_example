@@ -59,13 +59,15 @@ http://127.0.0.1:8000/docs
 
 ## Pozn ...
 Je mozno nastavit -  bud bude funguvat z SQLlight  - pouzijime a nastavime data v souboru database.py<br>
-                  - nebo pouzijeme  postgre databazi ... pouzijeme a nastavime postgre_database.py
+                  - nebo pouzijeme  postgre databazi ... pouzijeme a nastavime postgre_database.py<br>
 
 ## Postgre databaze 
-*1 
+1/ vsechny potrebne knihovny jsou v rqurements 
+2/ 
+
+
 ```bash
-pip install asyncpg 
+uvicorn main:app --reload
 ```
 
-pokud jiz neni v requirements
 
