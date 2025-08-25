@@ -15,6 +15,7 @@ my-fastapi-app/
 # Simple Task API
 
 Jednoduché REST API pro správu úkolů v Pythonu + FastAPI + SQLite.
+Tento projekt je **plně funkční, lokálně spustitelný**, ukazuje asynchronní operace, CRUD, databázi a FastAPI.  
 
 ## Spuštění lokálně
 
