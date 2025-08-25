@@ -59,7 +59,7 @@ http://127.0.0.1:8000/docs
 
 ## Pozn ...
 Je mozno nastavit -  bud bude funguvat z SQLlight  - pouzijime a nastavime data v souboru database.py<br>
-                  - nebo pouzijeme  postgre databazi ... 
+                  - nebo pouzijeme  postgre databazi ... pouzijeme a nastavime postgre_database.py
 
 ## Postgre databaze 
 *1 
