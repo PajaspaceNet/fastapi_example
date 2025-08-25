@@ -1,3 +1,10 @@
+
+
+
+<img width="246" height="244" alt="logo" src="https://github.com/user-attachments/assets/7e2d6812-059d-42ab-9e48-1efa2bf735c9" />
+
+
+
 # fastapi_example
 
 project example fastapi  REST API v Pythonu + FastAPI
