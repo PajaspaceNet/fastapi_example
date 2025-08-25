@@ -2,4 +2,6 @@ fastapi
 uvicorn[standard]
 databases[sqlite]
 sqlalchemy
+asyncpg
+psycopg2
 
