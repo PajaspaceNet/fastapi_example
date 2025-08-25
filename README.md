@@ -26,16 +26,25 @@ source venv/bin/activate   # Linux / Mac
 venv\Scripts\activate      # Windows
 ```
 
-## 2. Nainstaluj zavislosti
+## 3. Stazeni projekt z GituHubu 
+
+Pokud chcete projekt získat z GitHubu, můžete použít příkaz:
+
+```bash
+git clone https://github.com/PajaspaceNet/fastapi_example.git
+cd fastapi_example
+```
+
+## 4. Nainstaluj zavislosti
 ```bash
  pip install -r requirements.txt
 ```
-## 3. Spust server
+## 5. Spust server
 ```bash
 uvicorn main:app --reload
 ```
 
-## 4. Otevři dokumentaci v prohlížeči:
+## 6. Otevři dokumentaci v prohlížeči:
 ```bash
 http://127.0.0.1:8000/docs
 ```
