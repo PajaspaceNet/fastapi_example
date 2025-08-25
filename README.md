@@ -7,8 +7,8 @@
 
 # fastapi_example
 
-project example fastapi  REST API v Pythonu + FastAPI <br>
-Jednoduché REST API pro správu úkolů v Pythonu + FastAPI + SQLite.
+Project example fastapi  REST API v Pythonu + FastAPI <br>
+Jednoduchy projekt -  REST API pro správu úkolů v Pythonu + FastAPI + SQLite.
 
 ```
 my-fastapi-app/
