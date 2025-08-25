@@ -51,7 +51,7 @@ cd fastapi_example
 uvicorn main:app --reload
 ```
 
-## 6. Otevři dokumentaci v prohlížeči:
+## 6. Otevři dokumentaci SWAGGER  v prohlížeči a mozno testovat:
 ```bash
 http://127.0.0.1:8000/docs
 ```
