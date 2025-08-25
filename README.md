@@ -56,3 +56,16 @@ uvicorn main:app --reload
 http://127.0.0.1:8000/docs
 ```
 ## 7. Screenshoty je mozno videt ve folderu screenshots.md
+
+## Pozn ...
+Je mozno nastavit -  bud bude funguvat z SQLlight  - pouzijime a nastavime data v souboru database.py<br>
+                  - nebo pouzijeme  postgre databazi ... 
+
+## Postgre databaze 
+*1 
+```bash
+pip install asyncpg 
+```
+
+pokud jiz neni v requirements
+
