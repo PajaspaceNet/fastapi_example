@@ -62,9 +62,22 @@ Je mozno nastavit -  bud bude funguvat z SQLlight  - pouzijime a nastavime data 
                   - nebo pouzijeme  postgre databazi ... pouzijeme a nastavime postgre_database.py<br>
 
 ## Postgre databaze 
-1/ vsechny potrebne knihovny jsou v rqurements 
-2/ 
+1/ vsechny potrebne knihovny jsou jiz pripravene v requirements.txt , takze bychom nemeli nic doinstalovavat
 
+ 2/ Nastaveni spojeni na databazi postgre 
+```bash
+ DATABASE_URL = "postgresql+asyncpg://postgres:heslo@localhost:5432/mydb"
+```
+ * nastavime tyto udaje 
+```bash
+postgres = uživatelské jméno
+heslo = vaše heslo k DB
+localhost = běží na lokále (může být i IP nebo hostname)
+5432 = default port
+mydb = název vaší databáze
+
+```
+3/ Spustime 
 
 ```bash
 uvicorn main:app --reload
