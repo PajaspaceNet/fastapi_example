@@ -17,6 +17,8 @@ my-fastapi-app/
 │── database.py      # Připojení k DB
 │── requirements.txt # Knihovny
 │── README.md        # Návod k projektu
+│── screnshots.md    # Screenshoty - ukazky projektu
+
 ```
 
 # Simple Task API
